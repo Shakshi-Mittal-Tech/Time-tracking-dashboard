@@ -138,7 +138,9 @@ body {
     gap: 1rem;
     z-index: 999;
 }
-
+.card-content:hover{
+  background-color: var(--purple-500);
+}
 .card-title-bar {
     display: flex;
     justify-content: space-between;
@@ -167,9 +169,12 @@ body {
 }
 
 .previous-time {
-    font-size: 0.9rem;
-    color: var(--purple-500);
+    font-size: 0.75rem;
+    color: white;
+    font-weight: var(--font-weight-light);
+    opacity:0.5;
 }
+
 
 /* Colors */
 .work {
